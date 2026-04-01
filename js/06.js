@@ -5,7 +5,7 @@ const libro1 = {
     paginas: 672,
 
     mostrarLibro() {
-        return `El libro ${this.titulo} con ISBN ${this.isbn} creado por el autor ${this.autor} tiene ${this.paginas} páginas`;
+        return(`El libro ${this.titulo} con ISBN ${this.isbn} creado por el autor ${this.autor} tiene ${this.paginas} páginas`);
     }
 };
 
@@ -20,7 +20,7 @@ const libro2 = {
     }
 };
 
-// Muestro información de los libros
+// Muestro info de los libros
 console.log(libro1.mostrarLibro());
 console.log(libro2.mostrarLibro());
 
